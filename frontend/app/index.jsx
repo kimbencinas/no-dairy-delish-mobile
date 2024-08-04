@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 export default function App() {
 
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
             <ScrollView>
                 <View>
                     <Text>NoDairyDelish</Text>
@@ -14,3 +14,7 @@ export default function App() {
         </SafeAreaView>
     )
 }
+
+const styles = StyleSheet.create({
+
+})
