@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
+import { Text, View, StyleSheet, ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 export default function App() {
@@ -17,4 +17,4 @@ export default function App() {
 
 const styles = StyleSheet.create({
 
-})
+});

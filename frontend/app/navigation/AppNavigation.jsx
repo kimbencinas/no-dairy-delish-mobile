@@ -1,24 +1,25 @@
 import React from 'react'
+import { Stack } from 'expo-router'
 import { NavigationContainer } from '@react-navigation/native'
 import Home from '../screens/home'
-import signup from '../screens/SignUp'
+import SignUp from '../screens/SignUp'
 import login from '../screens/login'
 import about from '../screens/about'
 import breakfast from '../screens/breakfast'
-import lunch from '../screen/lunch'
+import lunch from '../screens/lunch'
 import dinner from '../screens/dinner'
 
 const AppNavigation = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRoute="Home">
+      <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
                 name="Home"
-                component={home}
+                component={Home}
             />
             <Stack.Screen
                 name="Sign Up"
-                component={signup}
+                component={SignUp}
             />
             <Stack.Screen
                 name="Log In"
