@@ -1,13 +1,12 @@
 import React from 'react'
 import { Stack } from 'expo-router'
 import { NavigationContainer } from '@react-navigation/native'
-import Home from '../screens/home'
-import SignUp from '../screens/SignUp'
-import login from '../screens/login'
+import SignUp from '../screens/(auth)/SignUp'
+import login from '../screens/(auth)/login'
 import about from '../screens/about'
-import breakfast from '../screens/breakfast'
-import lunch from '../screens/lunch'
-import dinner from '../screens/dinner'
+import breakfast from '../screens/meals/breakfast'
+import lunch from '../screens/meals/lunch'
+import dinner from '../screens/meals/dinner'
 
 const AppNavigation = () => {
   return (
